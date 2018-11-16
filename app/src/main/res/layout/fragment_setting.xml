@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".SettingFragment"
+    android:orientation="vertical"
+    android:background="#fff">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/ic_launcher_background"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/ivProfile"/>
+
+                <TextView
+                    android:fontFamily="serif"
+                    android:id="@+id/tvPublicName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text="Public Name"
+                    android:textColor="#000"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:fontFamily="serif"
+                    android:id="@+id/tvEmail"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Email@gmail.com"
+                    android:textColor="#5e5b5b"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginBottom="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:background="#949393"/>
+
+                <LinearLayout
+                    android:id="@+id/lnChooseLanguage"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:background="@drawable/linear_background_selector"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/language_black"/>
+
+                    <TextView
+                        android:fontFamily="serif"
+                        android:id="@+id/tvChooseLanguage"
+                        android:textColor="#000000"
+                        android:layout_marginLeft="30dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/language_setting"
+                        android:textSize="15dp"
+                        android:layout_gravity="center"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:background="#949393"/>
+
+                <LinearLayout
+                    android:id="@+id/lnAboutUs"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:background="@drawable/linear_background_selector"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/about"/>
+
+                    <TextView
+                        android:fontFamily="serif"
+                        android:id="@+id/tvAboutUs"
+                        android:textColor="#000000"
+                        android:layout_marginLeft="30dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/about_us"
+                        android:textSize="15dp"
+                        android:layout_gravity="center"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:background="#949393"/>
+
+                <LinearLayout
+                    android:id="@+id/lnLogout"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:background="@drawable/linear_background_selector"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_marginLeft="23dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/logout"/>
+
+                    <TextView
+                        android:fontFamily="serif"
+                        android:id="@+id/tvLogout"
+                        android:textColor="#000000"
+                        android:layout_marginLeft="29dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/logout"
+                        android:textSize="15dp"
+                        android:layout_gravity="center"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:background="#949393"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ក្នុងដៃ</string>
+
+    <string name="home">ទំព័រដើម</string>
+    <string name="notification">ដំណឹង</string>
+    <string name="setting">ការកំណត់</string>
+
+    <string name="search_hint">ស្វែងរក</string>
+
+    <string name="contactus_detail">
+        អាស័យដ្ឋាន:​ ផ្ទះលេខ#12 ផ្លូវលេខ​323, សង្កាត់ទួលសង្កែ \n\nខណ្ឌឬស្សីកែវ រាជធានីភ្នំពេញ កម្ពុជា.
+        \n\nទូរស័ព្ទ: (855) 96 217 7184\n\nអីម៉ែល: vechet240@gmail.com
+    </string>
+    <string name="footer_aboutus">រក្សាសិទ្ធដោយ Knong Dai 2018</string>
+    <string name="search">លទ្ធផលនៃការស្វែងរក</string>
+    <string name="choose_language">ជ្រើសរើសភាសា</string>
+    <string name="english_language">ភាសាអង់គ្លេស</string>
+    <string name="khmer_language">ភាសាខ្មែរ</string>
+    <string name="browse_by_category">រកមើលតាមប្រភេទ</string>
+    <string name="language_setting">ការកំណត់ភាសា</string>
+    <string name="about_us">អំពី​​យើង</string>
+    <string name="logout">ចាកចេញ</string>
+    <string name="contact_us">ទំនាក់ទំនង</string>
+    <string name="our_location">ទីតាំង</string>
+
+    <string name="how_to_use">របៀបប្រើប្រាស់</string>
+    <string name="account_login">គណនីប្រើប្រាស់</string>
+    <string name="knongDai_sub_title">កម្មវិធីសំរាប់ស្វែងរកអ្វីមួយដំបូងបង្អស់នៅក្នុងប្រទេសកម្ពុជា</string>
+
+    <string name="dialog_title">ចាកចេញ</string>
+    <string name="internet_connection">No internet connection!</string>
+    <string name="check_your_internet_connection">Please check your internet settings.</string>
+</resources>
+
+<!--<string name="footer_aboutus">កម្មសិទ្ធរបស់ Chuo Vechet Andrid Developer</string>-->

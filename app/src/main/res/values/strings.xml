@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Knong Dai</string>
+
+    <string name="home">Home</string>
+    <string name="notification">Notification</string>
+    <string name="setting">Setting</string>
+
+    <string name="search_hint">Search</string>
+
+    <string name="contactus_detail">
+        Address: #12, St323, Sangkat Toulsangkae, \n\nKhan Russeykeo, Phnom Penh, Cambodia.
+        \n\nPhone: (855) 96 217 7184\n\nEmail: vechet240@gmail.com
+    </string>
+    <string name="footer_aboutus">All rights reserved, Knong Dai 2018</string>
+    <string name="search">Search Result</string>
+    <string name="choose_language">Choose Language</string>
+    <string name="english_language">English Language</string>
+    <string name="khmer_language">Khmer Language</string>
+    <string name="browse_by_category">Browse By Category</string>
+    <string name="language_setting">Language Setting</string>
+    <string name="about_us">About Us</string>
+    <string name="logout">Logout</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="our_location">Our Location</string>
+
+    <string name="facebook_app_id">2061225934189397</string>
+    <string name="fb_login_protocol_scheme">fb2061225934189397</string>
+    <string name="how_to_use">How to use?</string>
+    <string name="account_login">Account Login</string>
+    <string name="knongDai_sub_title">The First Search Engine in Cambodia</string>
+
+    <string name="dialog_title">Logout</string>
+    <string name="internet_connection">No internet connection!</string>
+    <string name="check_your_internet_connection">Please check your internet settings.</string>
+
+</resources>
+
+    <!--<string name="footer_aboutus">All rights reserved, Chuo Vechet Android Developer</string>-->
